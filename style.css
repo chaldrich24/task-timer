@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#task-enter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px 30px;
+}
+
+#task-input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#task-input-form > * {
+    margin: 5px 0;
+}
+
+#time-enter-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#task-container {
+    width: 30%;
+    margin: 20px 0;
+}
+
+.time-enter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30% 
+}
+
+.time-enter input {
+    width: 80%;
+}
+
+.task-item {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.task-item p {
+    margin-bottom: 2px;
+}
+

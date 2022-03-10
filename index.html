@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Task Timer</title>
+</head>
+
+<body>
+    <div id="task-enter">
+        <h2>Add a Task:</h2>
+        <form id="task-input-form">
+            <div>
+                <label for="name">Task Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div id="time-enter-container">
+                <div class="time-enter">
+                    <input type="number" name="hours" id="hours" min="0" max="9">
+                    <label for="hours">Hours</label>
+                </div>
+                <div class="time-enter">
+                    <input type="number" name="minutes" id="minutes" min="0" max="9">
+                    <label for="minutes">Minutes</label>
+                </div>
+            </div>
+            <button type="submit">Start Task</button>
+        </form>
+    </div>
+    <div id="task-container">
+        <div class="task-item">
+            <h2>Task Name</h2>
+            <p>Task Time: <span class="timer"></span></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
